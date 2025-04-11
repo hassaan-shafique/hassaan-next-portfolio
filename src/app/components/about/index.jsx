@@ -1,4 +1,4 @@
-import { ImageError } from 'next/dist/server/image-optimizer'
+
 import React from 'react'
 import Image from 'next/image'
 
