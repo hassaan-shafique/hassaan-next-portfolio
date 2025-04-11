@@ -1,11 +1,19 @@
 
+import React from 'react'
+import Navbar from './components/navbar'
+import Home from './components/home'
+import About from './components/about'
 
-export default function Home() {
+const Main = () => {
   return (
     <>
-    <h1 className="text-4xl">
-      Hello my name is hassaan and this is my next portfolio 
-    </h1>
+    <Navbar/>
+    <Home/>
+    <About/>
+    
     </>
-  );
+  )
 }
+
+export default Main
+
