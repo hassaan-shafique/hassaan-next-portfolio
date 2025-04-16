@@ -21,7 +21,7 @@ const Home = () => {
         </h1>
 
        
-        <p className="text-gray-700 text-base md:text-lg mb-6">
+        <p className="text-gray-400 text-base md:text-lg mb-6">
           With 2 years of experience in building modern, optimized, and scalable web applications.
           <br />
           I specialize in <span className="font-medium text-[#04399b]">React</span>, <span className="font-medium text-[#04399b]">Next.js</span>, and <span className="font-medium text-[#04399b]">Firebase</span>, and I’m passionate about crafting seamless user experiences and clean, maintainable code.
