@@ -11,23 +11,22 @@ const Home = () => {
      
      <div className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-10 ">
       
-      {/* Left Content */}
+    
       <div className="max-w-xl text-center md:text-left">
-        {/* Heading */}
+     
         <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-snug">
           Hello, I’m M. Hassaan Shafique
           <br /> 
           <span className="text-[#04399b]">a Software Engineer</span>
         </h1>
 
-        {/* Description */}
+       
         <p className="text-gray-700 text-base md:text-lg mb-6">
           With 2 years of experience in building modern, optimized, and scalable web applications.
           <br />
           I specialize in <span className="font-medium text-[#04399b]">React</span>, <span className="font-medium text-[#04399b]">Next.js</span>, and <span className="font-medium text-[#04399b]">Firebase</span>, and I’m passionate about crafting seamless user experiences and clean, maintainable code.
         </p>
 
-        {/* Social Icons */}
         <div className="flex justify-center md:justify-start space-x-6 mb-6">
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
             <Image src="socials/github.svg" alt="GitHub" width={40} height={40} className="hover:scale-110 transition-transform" />
@@ -51,9 +50,12 @@ const Home = () => {
           <button className="bg-[#123472] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#0f2a5e] transition-colors">
             Contact
           </button>
-          <button className="bg-[#123472] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#0f2a5e] transition-colors">
-            Resume
-          </button>
+          <a href="/Muhammad-Hassaan-Shafique-CV.pdf" target="_blank" rel="noopener noreferrer">
+  <button className="bg-[#123472] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#0f2a5e] transition-colors cursor-pointer">
+    Resume
+  </button>
+</a>
+
         </div>
       </div>
 
