@@ -17,20 +17,20 @@ const Home = () => {
         <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-snug">
           Hello, I’m M. Hassaan Shafique
           <br /> 
-          <span className="text-[#123472]">a Software Engineer</span>
+          <span className="text-[#04399b]">a Software Engineer</span>
         </h1>
 
         {/* Description */}
         <p className="text-gray-700 text-base md:text-lg mb-6">
           With 2 years of experience in building modern, optimized, and scalable web applications.
           <br />
-          I specialize in <span className="font-medium text-[#123472]">React</span>, <span className="font-medium text-[#123472]">Next.js</span>, and <span className="font-medium text-[#123472]">Firebase</span>, and I’m passionate about crafting seamless user experiences and clean, maintainable code.
+          I specialize in <span className="font-medium text-[#04399b]">React</span>, <span className="font-medium text-[#04399b]">Next.js</span>, and <span className="font-medium text-[#04399b]">Firebase</span>, and I’m passionate about crafting seamless user experiences and clean, maintainable code.
         </p>
 
         {/* Social Icons */}
         <div className="flex justify-center md:justify-start space-x-6 mb-6">
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-            <Image src="/github.svg" alt="GitHub" width={40} height={40} className="hover:scale-110 transition-transform" />
+            <Image src="socials/github.svg" alt="GitHub" width={40} height={40} className="hover:scale-110 transition-transform" />
           </a>
           <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
             <Image src="/linkedin.png" alt="LinkedIn" width={40} height={40} className="hover:scale-110 transition-transform" />
@@ -39,10 +39,10 @@ const Home = () => {
             <Image src="/medium.png" alt="Twitter" width={40} height={40} className="hover:scale-110 transition-transform" />
           </a>
           <a href="mailto:your@email.com" target="_blank" rel="noopener noreferrer">
-            <Image src="/fiverr.svg" alt="Email" width={40} height={40} className="hover:scale-110 transition-transform" />
+            <Image src="socials/fiverr.svg" alt="Email" width={40} height={40} className="hover:scale-110 transition-transform" />
           </a>
           <a href="https://your-website.com" target="_blank" rel="noopener noreferrer">
-            <Image src="/upwork.svg" alt="Website" width={40} height={40} className="hover:scale-110 transition-transform" />
+            <Image src="socials/upwork.svg" alt="Website" width={40} height={40} className="hover:scale-110 transition-transform" />
           </a>
         </div>
 

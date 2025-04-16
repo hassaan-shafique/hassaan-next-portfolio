@@ -11,7 +11,7 @@ const About = () => {
    <div className='flex justify-center space-x-23'> 
     
     <div> 
-        <h2 className='text-[#123472] font-bold'>About </h2>
+        <h2 className='text-[#123472] font-bold text-4xl'>About </h2>
         <p> This is the my about Section This is the my about Section
         This is the my about Section
         <br/>
