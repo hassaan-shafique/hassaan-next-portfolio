@@ -28,7 +28,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="bg-[#123472]  border shadow-md rounded-2xl p-6 text-center hover:shadow-xl transition duration-300 ease-in-out"
+              className="bg-[#123472] border border-gray-200 rounded-2xl p-6 text-center hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out"
             >
               <div className="w-16 h-16 mx-auto mb-4">
                 <Image
