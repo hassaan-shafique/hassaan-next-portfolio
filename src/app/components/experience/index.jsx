@@ -56,7 +56,7 @@ const Experience = () => {
         <h2 className="text-5xl font-bold text-center text-[#123472] mb-20">Experience</h2>
 
        
-        <div className="absolute top-32  left-1/2 transform -translate-x-1/4 h-full w-1 bg-[#123472]" />
+        <div className="absolute top-12  left-1/4 transform -translate-x-1/3 h-full w-1 bg-[#123472]" />
 
         <div className="flex flex-col gap-20 relative z-10">
           {experiences.map((exp, index) => (
@@ -68,7 +68,7 @@ const Experience = () => {
                   <p className="text-sm mb-3 italic">
                     {exp.role} | {exp.duration}
                   </p>
-                  <ul className="list-disc pl-5 sm:pl-0 sm:pr-5 space-y-1 text-sm">
+                  <ul className="list-disc pl-5 sm:pl-0 sm:pr-5 space-y-1 text-md">
                     {exp.description.map((item, i) => (
                       <li key={i}>{item}</li>
                     ))}
@@ -77,7 +77,7 @@ const Experience = () => {
               </div>
 
            
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-[#123472] border-4 border-white z-20 shadow-md" />
+              <div className="absolute left-1/4 transform -translate-x-1/17 w-6 h-6 rounded-br-4xl bg-[#123472]  z-20 shadow-md" />
             </div>
           ))}
         </div>

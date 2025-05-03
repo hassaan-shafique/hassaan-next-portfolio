@@ -3,23 +3,23 @@ import React from 'react';
 
 const certifications = [
   {
-    title: 'React Developer Certificate',
+    title: 'Programming with JavaScript',
     institution: 'Coursera',
     image: '/path/to/react-certification.jpg', // Add the image URL for the certificate here
   },
   {
-    title: 'Full Stack Web Development',
+    title: 'Software Architecture & Design of Modern Large Scale Systems',
     institution: 'Udemy',
     image: '/path/to/fullstack-certification.jpg', // Add the image URL for the certificate here
   },
   {
-    title: 'JavaScript Mastery',
-    institution: 'edX',
+    title: 'The Complete Full Stack Web Developnment BootCamp',
+    institution: 'Udemy',
     image: '/path/to/js-certification.jpg', // Add the image URL for the certificate here
   },
   {
-    title: 'JavaScript Mastery',
-    institution: 'edX',
+    title: 'Foundations of User Experience (UX) Design',
+    institution: 'Coursera',
     image: '/path/to/js-certification.jpg', // Add the image URL for the certificate here
   },
   // Add more certifications as needed

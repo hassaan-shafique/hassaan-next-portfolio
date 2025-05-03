@@ -3,32 +3,32 @@ import React from 'react';
 
 const blogs = [
   {
-    title: 'Understanding React Hooks',
+    title: 'Understanding Microservices and Monolithic Architecture',
     platform: 'Medium',
     description: 'A deep dive into React Hooks and how they simplify state management.',
-    link: 'https://medium.com/your-profile/understanding-react-hooks',
-    image: '/path/to/react-hooks-image.jpg', // Add the image URL here
+    link: 'https://medium.com/@hassaanshafique398/understanding-microservices-and-monolithic-architectures-when-to-choose-which-2802c8fed957',
+    image: '/blogs/microvsmono.png', 
   },
   {
-    title: 'Next.js: The Future of React Development',
-    platform: 'Dev.to',
+    title: 'Firebase Authentication',
+    platform: 'Medium',
     description: 'Exploring the features of Next.js and how it enhances React development.',
-    link: 'https://dev.to/your-profile/next-js-the-future-of-react-development',
-    image: '/path/to/nextjs-image.jpg', // Add the image URL here
+    link: 'https://medium.com/@hassaanshafique398/master-firebase-with-react-from-basics-to-building-secure-user-authentication-signup-login-62188b9c864a',
+    image: '/blogs/firebase.png', 
   },
   {
     title: 'Tailwind CSS: A Game Changer for Styling',
     platform: 'Medium',
     description: 'A comprehensive guide to using Tailwind CSS in modern web development.',
     link: 'https://medium.com/your-profile/tailwind-css-game-changer-for-styling',
-    image: '/path/to/tailwind-css-image.jpg', // Add the image URL here
+    image: '/path/to/tailwind-css-image.jpg', 
   },
   {
-    title: 'Tailwind CSS: A Game Changer for Styling',
+    title: 'Mastering Git: A Complete Beginner-to-Advanced Guide for Developers',
     platform: 'Medium',
     description: 'A comprehensive guide to using Tailwind CSS in modern web development.',
     link: 'https://medium.com/your-profile/tailwind-css-game-changer-for-styling',
-    image: '/path/to/tailwind-css-image.jpg', // Add the image URL here
+    image: '/blogs/gitblog.png', 
   },
   // Add more blogs as needed
 ];
@@ -68,7 +68,18 @@ const Blog = () => {
             </div>
           ))}
         </div>
+        <a 
+           href= "https://medium.com/@hassaanshafique398"
+           target='_blank'
+           className='underline text-blue-800 flex justify-center mt-12'
+           > 
+        <div className='text-blue-800 text-2xl '> View More</div>
+        </a>
       </div>
+
+     
+     
+    
     </section>
   );
 };
