@@ -13,9 +13,9 @@ const projects = [
     demo: '#',
   },
   {
-    title: 'Task Management Tool',
+    title: 'Expense Management',
     image: '/taskflow.png',
-    description: 'Helps users track daily tasks, manage projects, and maintain productivity efficiently.',
+    description: 'Helps users track daily Expense, manage projects, and maintain productivity efficiently.',
     tech: ['Next.js', 'Firebase', 'Tailwind'],
     github: 'https://github.com/yourusername/task-manager',
     demo: '#',

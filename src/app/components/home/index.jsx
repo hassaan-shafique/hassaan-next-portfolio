@@ -8,14 +8,14 @@ import mainAnimation from '../../assets/social/main.json'
 const Home = () => {
   return (
     <div className="w-full bg-white">
-      <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-4 sm:px-6 md:px-12 lg:px-20 xl:px-24 py-16 gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col-reverse  lg:flex-row items-center justify-between px-4 sm:px-6 md:px-12 lg:px-20 xl:px-24 py-16 gap-10">
         
         {/* Left Side - Text */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="w-full lg:w-1/1 text-center lg:text-left">
           <h1 className="text-3xl  text-black sm:text-4xl md:text-5xl xl:text-6xl font-bold mb-6 leading-tight">
-            Hello, I’m M. Hassaan Shafique
+            Hello, I’m  <br/>M. Hassaan Shafique
             <br />
-            <span className="text-[#04399b]">a Software Engineer</span>
+            <span className="text-[#04399b]">Software Engineer</span>
           </h1>
 
           <p className="text-black text-base sm:text-lg xl:text-xl mb-6 leading-relaxed">
@@ -56,8 +56,8 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right Side - Animation */}
-        <div className="w-full lg:w-1/2 max-w-[500px] xl:max-w-[600px]">
+        
+        <div className="w-full lg:w-1/2 max-w-[600px] xl:max-w-[700px]">
           <Lottie animationData={mainAnimation} loop={true} />
         </div>
       </div>
