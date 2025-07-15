@@ -5,14 +5,14 @@ const blogs = [
   {
     title: 'Understanding Microservices and Monolithic Architecture',
     platform: 'Medium',
-    description: 'A deep dive into React Hooks and how they simplify state management.',
+    description: 'A deep dive into Services Microsevices and Monolithic Architectue.',
     link: 'https://medium.com/@hassaanshafique398/understanding-microservices-and-monolithic-architectures-when-to-choose-which-2802c8fed957',
     image: '/blogs/microvsmono.png', 
   },
   {
     title: 'Firebase Authentication',
     platform: 'Medium',
-    description: 'Exploring the features of Next.js and how it enhances React development.',
+    description: 'Exploring the features of Firebase Secure Authentication .',
     link: 'https://medium.com/@hassaanshafique398/master-firebase-with-react-from-basics-to-building-secure-user-authentication-signup-login-62188b9c864a',
     image: '/blogs/firebase.png', 
   },
@@ -21,7 +21,7 @@ const blogs = [
     platform: 'Medium',
     description: 'A comprehensive guide to using Tailwind CSS in modern web development.',
     link: 'https://medium.com/your-profile/tailwind-css-game-changer-for-styling',
-    image: '/path/to/tailwind-css-image.jpg', 
+    image: '/tailwind-css-image.jpg', 
   },
   {
     title: 'Mastering Git: A Complete Beginner-to-Advanced Guide for Developers',

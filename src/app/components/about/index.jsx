@@ -61,7 +61,7 @@ const About = () => {
           {/* Right: Image */}
           <div className="flex-shrink-0">
             <Image
-              src="/image.jpg"
+              src="/Image.jpg"
               width={320}
               height={320}
               alt="Muhammad Hassaan Shafique"
