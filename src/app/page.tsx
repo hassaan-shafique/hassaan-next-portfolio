@@ -1,33 +1,35 @@
+'use client'
 
-import React from 'react'
-import Navbar from './components/navbar'
-import Home from './components/home'
-import About from './components/about'
-import Skills from './components/skills'
-import Projects from './components/projects'
-import Experience from './components/experience'
-import Blog from './components/blogs'
-import Certificate from "./components/certificate"
-import  Contact  from './components/contact'
-import  Footer  from './components/footer'
+import dynamic from 'next/dynamic'
+
+const Navbar = dynamic(() => import('./components/navbar'), { ssr: false })
+const Home = dynamic(() => import('./components/home'), { ssr: false })
+const About = dynamic(() => import('./components/about'), { ssr: false })
+const Skills = dynamic(() => import('./components/skills'), { ssr: false })
+const Projects = dynamic(() => import('./components/projects'), { ssr: false })
+const Experience = dynamic(() => import('./components/experience'), { ssr: false })
+const Blog = dynamic(() => import('./components/blogs'), { ssr: false })
+const Certificate = dynamic(() => import('./components/certificate'), { ssr: false })
+const Contact = dynamic(() => import('./components/contact'), { ssr: false })
+const Footer = dynamic(() => import('./components/footer'), { ssr: false })
+
 const Main = () => {
   return (
     <>
-    <div className=''> 
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Skills/>
-    <Projects/>
-    <Experience/>
-    <Blog/>
-    <Certificate/>
-    <Contact/>
-    <Footer/>
-    </div>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Blog />
+      <Certificate />
+      <Contact />
+      <Footer />
     </>
   )
 }
 
 export default Main
+
 

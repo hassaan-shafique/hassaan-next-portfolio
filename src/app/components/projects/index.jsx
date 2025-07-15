@@ -36,6 +36,38 @@ const projects = [
     github: 'https://github.com/yourusername/blog-website',
     demo: '#',
   },
+  {
+    title: 'Inventory Management System',
+    image: '/inventory.png',
+    description: 'A complete system to manage stock, sales, installments, and reports with Firebase and React.',
+    tech: ['React', 'Firebase', 'Tailwind'],
+    github: 'https://github.com/yourusername/inventory-system',
+    demo: '#',
+  },
+  {
+    title: 'Expense Management',
+    image: '/taskflow.png',
+    description: 'Helps users track daily Expense, manage projects, and maintain productivity efficiently.',
+    tech: ['Next.js', 'Firebase', 'Tailwind'],
+    github: 'https://github.com/yourusername/task-manager',
+    demo: '#',
+  },
+  {
+    title: 'Blog Posting Website',
+    image: '/blog (2).png',
+    description: 'A modern blog platform with real-time updates, user authentication, and clean UI.',
+    tech: ['Next.js', 'Firebase', 'Tailwind'],
+    github: 'https://github.com/yourusername/blog-website',
+    demo: '#',
+  },
+  {
+    title: 'E-Commece Website',
+    image: '/ecommerce.jpg',
+    description: 'A modern blog platform with real-time updates, user authentication, and clean UI.',
+    tech: ['Next.js', 'Firebase', 'Tailwind'],
+    github: 'https://github.com/yourusername/blog-website',
+    demo: '#',
+  },
   // Add more projects as needed
 ];
 
