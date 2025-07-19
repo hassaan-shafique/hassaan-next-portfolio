@@ -17,11 +17,11 @@ const blogs = [
     image: '/blogs/firebase.png', 
   },
   {
-    title: 'Tailwind CSS: A Game Changer for Styling',
+    title: 'Still Using Media Queries?',
     platform: 'Medium',
-    description: 'A comprehensive guide to using Tailwind CSS in modern web development.',
-    link: 'https://medium.com/your-profile/tailwind-css-game-changer-for-styling',
-    image: '/tailwind-css-image.jpg', 
+    description: 'A comprehensive guide to Media Queries And Container Queries.',
+    link: 'https://medium.com/@hassaanshafique398/still-using-media-queries-0426268dee12',
+    image: '/blogs/media.png', 
   },
   {
     title: 'Mastering Git: A Complete Beginner-to-Advanced Guide for Developers',

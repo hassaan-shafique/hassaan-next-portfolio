@@ -10,10 +10,12 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Left: Form */}
-          <form className="space-y-5">
+          <form  action="https://formspree.io/f/xpwlqawg"
+  method="POST" className="space-y-5">
             <div>
               <label className="block mb-1">Name</label>
               <input
+              name='name'
                 type="text"
                 placeholder="Your Name"
                 className="w-full p-3 rounded-lg bg-white text-black"
@@ -23,6 +25,7 @@ const Contact = () => {
             <div>
               <label className="block mb-1">Email</label>
               <input
+              name='email'
                 type="email"
                 placeholder="Your Email"
                 className="w-full p-3 rounded-lg bg-white text-black"
@@ -32,6 +35,7 @@ const Contact = () => {
             <div>
               <label className="block mb-1">Service</label>
               <input
+              name='services'
                 type="text"
                 placeholder="Service you need"
                 className="w-full p-3 rounded-lg bg-white text-black"
@@ -41,6 +45,7 @@ const Contact = () => {
             <div>
               <label className="block mb-1">Description</label>
               <textarea
+              name='description'
                 rows={4}
                 placeholder="Tell me more..."
                 className="w-full p-3 rounded-lg bg-white text-black"

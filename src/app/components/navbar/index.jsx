@@ -21,13 +21,13 @@ const Navbar = () => {
        
         <div className='hidden md:flex md:space-x-6 mr-30 font-bold '>
           <Link href="/" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Home</Link>
-          <Link href="/about" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>About</Link>
-          <Link href="/skills" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Skills</Link>
-          <Link href="/projects" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Projects</Link>
-          <Link href="/experience" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Experience</Link>
-          <Link href="/education" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Education</Link>
-          <Link href="/blogs" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Blogs</Link>
-          <Link href="/certifications" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Certifications</Link>
+          <Link href="#about" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>About</Link>
+          <Link href="#skills" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Skills</Link>
+          <Link href="#projects" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Projects</Link>
+          <Link href="#experience" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Experience</Link>
+          <Link href="#education" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Education</Link>
+          <Link href="#blogs" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Blogs</Link>
+          <Link href="#certifications" className='text-white hover:text-gray-300 px-3 py-2 rounded-md'>Certifications</Link>
         </div>
 
         {/* Hamburger Icon for Mobile */}
@@ -43,13 +43,13 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-[#123472]`}>
         <Link href="/" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Home</Link>
-        <Link href="/about" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>About</Link>
-        <Link href="/skills" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Skills</Link>
-        <Link href="/projects" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Projects</Link>
-        <Link href="/experience" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Experience</Link>
-        <Link href="/education" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Education</Link>
-        <Link href="/blogs" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Blogs</Link>
-        <Link href="/certifications" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Certifications</Link>
+        <Link href="#about" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>About</Link>
+        <Link href="#skills" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Skills</Link>
+        <Link href="#projects" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Projects</Link>
+        <Link href="#experience" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Experience</Link>
+        <Link href="#education" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Education</Link>
+        <Link href="#blogs" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Blogs</Link>
+        <Link href="#certifications" className='text-white hover:text-gray-300 px-3 py-2 rounded-md block'>Certifications</Link>
       </div>
     </>
   )

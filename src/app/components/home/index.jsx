@@ -45,11 +45,11 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="flex justify-center lg:justify-start flex-wrap gap-4">
-            <button className="bg-[#123472] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#0f2a5e] transition-colors">
+            <a href="#contact" className="bg-[#123472] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#0f2a5e] transition-colors">
               Contact
-            </button>
+            </a>
             <a href="/Muhammad-Hassaan-Shafique-CV.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="bg-[#123472] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#0f2a5e] transition-colors">
+              <button className="bg-[#123472] cursor-pointer text-white px-6 py-2 rounded-full shadow-md hover:bg-[#0f2a5e] transition-colors">
                 Resume
               </button>
             </a>

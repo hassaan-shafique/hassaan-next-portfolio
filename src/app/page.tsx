@@ -13,7 +13,7 @@ const Certificate = dynamic(() => import('./components/certificate'), { ssr: fal
 const Contact = dynamic(() => import('./components/contact'), { ssr: false })
 const Footer = dynamic(() => import('./components/footer'), { ssr: false })
 
-const Main = () => {
+const App = () => {
   return (
     <>
       <Navbar />
@@ -30,6 +30,6 @@ const Main = () => {
   )
 }
 
-export default Main
+export default App
 
 
