@@ -2,30 +2,30 @@
 import React from 'react';
 import Image from 'next/image';
 import { ExternalLink, Github } from 'lucide-react';
+import Navbar from '../navbar';
 
 const projects = [
   {
     title: 'Inventory Management System',
     image: '/inventory.png',
     description: 'A complete system to manage stock, sales, installments, and reports with Firebase and React.',
-    tech: ['React', 'Firebase', 'Tailwind'],
-    github: 'https://github.com/yourusername/inventory-system',
+    tech: ['React', 'Firebase', 'Material UI'],
     demo: '#',
   },
   {
-    title: 'Expense Management',
-    image: '/taskflow.png',
-    description: 'Helps users track daily Expense, manage projects, and maintain productivity efficiently.',
-    tech: ['Next.js', 'Firebase', 'Tailwind'],
-    github: 'https://github.com/yourusername/task-manager',
-    demo: '#',
+    title: 'De Silk Tours',
+    image: '/desilktours.png',
+    description: 'A responsive web platform where users can explore available tours, view detailed itineraries, and book their trips online. Designed for a seamless travel booking experience.',
+    tech: ['React', 'FormsFree', 'Tailwind'],
+    github: 'https://github.com/hassaan-shafique/De-Silk-Tours',
+    demo: 'https://www.desilktours.com/',
   },
   {
-    title: 'Blog Posting Website',
+    title: 'Peoples Blog',
     image: '/blog (2).png',
     description: 'A modern blog platform with real-time updates, user authentication, and clean UI.',
-    tech: ['Next.js', 'Firebase', 'Tailwind'],
-    github: 'https://github.com/yourusername/blog-website',
+    tech: ['Next.js', 'Firebase', 'Tailwind' , 'Quill Editor'],
+    github: 'https://github.com/hassaan-shafique/firebase-peoples-blog',
     demo: '#',
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     image: '/ecommerce.jpg',
     description: 'A modern blog platform with real-time updates, user authentication, and clean UI.',
     tech: ['Next.js', 'Firebase', 'Tailwind'],
-    github: 'https://github.com/yourusername/blog-website',
+    github: 'https://github.com/hassaan-shafique/MHS-Ecommerce-Store',
     demo: '#',
   },
  
@@ -52,7 +52,7 @@ const Projects = () => {
               key={index}
               className="bg-[#123472] rounded-2xl shadow-md border border-[#123472] hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              <div className="w-full h-48 relative">
+              <div className="w-full h-78 relative">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -113,9 +113,7 @@ const Projects = () => {
 </div>
 
 
-        
-         
-     
+  
     </section>
   );
 };

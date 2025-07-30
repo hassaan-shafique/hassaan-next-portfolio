@@ -26,20 +26,20 @@ const Home = () => {
 
           {/* Social Links */}
           <div className="flex justify-center lg:justify-start flex-wrap gap-4 mb-6">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/hassaan-shafique" target="_blank" rel="noopener noreferrer">
               <Image src="/socials/github.svg" alt="GitHub" width={40} height={40} className="hover:scale-110 transition-transform" />
             </a>
-            <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/m-hassaan-shafique-558479212/" target="_blank" rel="noopener noreferrer">
               <Image src="/linkedin.png" alt="LinkedIn" width={40} height={40} className="hover:scale-110 transition-transform" />
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-              <Image src="/medium.png" alt="Twitter" width={40} height={40} className="hover:scale-110 transition-transform" />
+            <a href="https://medium.com/@hassaanshafique398" target="_blank" rel="noopener noreferrer">
+              <Image src="/medium.png" alt="Medium" width={40} height={40} className="hover:scale-110 transition-transform" />
             </a>
-            <a href="mailto:your@email.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/socials/fiverr.svg" alt="Email" width={40} height={40} className="hover:scale-110 transition-transform" />
+            <a href="https://www.fiverr.com/sellers/hassaanshafique/edit" target="_blank" rel="noopener noreferrer">
+              <Image src="/socials/fiverr.svg" alt="Fiverr" width={40} height={40} className="hover:scale-110 transition-transform" />
             </a>
-            <a href="https://your-website.com" target="_blank" rel="noopener noreferrer">
-              <Image src="/socials/upwork.svg" alt="Website" width={40} height={40} className="hover:scale-110 transition-transform" />
+            <a href="https://www.upwork.com/freelancers/~017aa4bff4acd7fe70?mp_source=share" target="_blank" rel="noopener noreferrer">
+              <Image src="/socials/upwork.svg" alt="Upwork" width={40} height={40} className="hover:scale-110 transition-transform" />
             </a>
           </div>
 
